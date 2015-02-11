@@ -4,22 +4,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String args[]) {
+        int b, g;
+        b = 8;
+        g = 99;
 
-        int test = 6;
-
-        if (test == 9) {
-            System.out.print("true");
+        if (b > 18 || g < 60) {
+            System.out.println("You can Enter");
         } else {
-            System.out.println("false");
+            System.out.println("You Can Not Enter");
         }
 
         /**
-         * == Equal To
-         * != Not Equal
-         * < Less Then
-         * > Greater Then
-         * <= Less Then or Equal
-         * >= Greater then or equal
+         * && and ( 1<2 && 2<3)
+         * || or (1<2 || 2>3)
          */
+
     }
 }
