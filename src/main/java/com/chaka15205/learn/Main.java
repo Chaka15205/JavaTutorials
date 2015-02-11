@@ -4,12 +4,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String args[]) {
-        Scanner s = new Scanner(System.in);
 
-        int tuna = 5;
-        int bass = 18;
+        int test = 6;
 
-        tuna += 8;
-        System.out.println(tuna);
+        if (test == 9) {
+            System.out.print("true");
+        } else {
+            System.out.println("false");
+        }
+
+        /**
+         * == Equal To
+         * != Not Equal
+         * < Less Then
+         * > Greater Then
+         * <= Less Then or Equal
+         * >= Greater then or equal
+         */
     }
 }
