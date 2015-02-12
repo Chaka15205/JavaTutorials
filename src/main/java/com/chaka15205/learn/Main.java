@@ -4,14 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String args[]) {
-        Scanner s = new Scanner(System.in);
-        Tuna t = new Tuna();
-
-        System.out.println("Enter Name");
-
-        String temp = s.nextLine();
-
-        t.setName(temp);
+        Tuna t = new Tuna("Alison");
+        Tuna t2 = new Tuna("Christine");
         t.saying();
+        t2.saying();
     }
 }
