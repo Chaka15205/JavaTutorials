@@ -4,19 +4,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String args[]) {
-        int b, g;
-        b = 8;
-        g = 99;
+        int age;
+        age = 7;
 
-        if (b > 18 || g < 60) {
-            System.out.println("You can Enter");
-        } else {
-            System.out.println("You Can Not Enter");
+        switch (age) {
+            case 1:
+                System.out.println("You Can Crawl.");
+                break;
+            case 2:
+                System.out.println("You Can Talk.");
+                break;
+            case 3:
+                System.out.println("You Can get in trouble.");
+                break;
+            default:
+                System.out.println("ERROR: Invalid Age");
+                break;
         }
-
-        /**
-         * && and ( 1<2 && 2<3)
-         * || or (1<2 || 2>3)
-         */
     }
 }
