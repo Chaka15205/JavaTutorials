@@ -1,21 +1,12 @@
 package com.chaka15205.learn;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String args[]) {
-        Scanner scan = new Scanner(System.in);
-        int grade, avg, total, count;
-        total = 0;
-        count = 0;
-
-        while (count < 10) {
-            grade = scan.nextInt();
-            total = total + grade;
-            count++;
+        for (int c = 6; c <= 21; c += 3) {
+            System.out.println(c);
         }
-
-        avg = total/10;
-        System.out.println("Your average is: " + avg);
+        /**
+         * for (Where You Want To Start; Where You Want To End; Increment By i.e 2's 4's) {}
+         */
     }
 }
