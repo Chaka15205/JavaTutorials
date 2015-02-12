@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76c8a4b-cabd-464a-84b8-d46bc1cae280" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/JavaTutorials-1.0.jar" afterPath="$PROJECT_DIR$/build/libs/JavaTutorials-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/chaka15205/learn/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/com/chaka15205/learn/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaTutorials.iws" afterPath="$PROJECT_DIR$/JavaTutorials.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java" />
     </list>
@@ -33,8 +39,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18133333" vertical-offset="0" max-vertical-offset="375">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="375">
+              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -625,7 +631,13 @@
       <option name="project" value="LOCAL" />
       <updated>1423776670482</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Episode 19 - else if Statement">
+      <created>1423776953140</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1423776953141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -681,7 +693,8 @@
     <MESSAGE value="Episode 16 - Many Methods With Parameters" />
     <MESSAGE value="Episode 17 - Constructors" />
     <MESSAGE value="Episode 18 - Nested if Statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Episode 18 - Nested if Statements" />
+    <MESSAGE value="Episode 19 - else if Statement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Episode 19 - else if Statement" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -707,8 +720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18133333" vertical-offset="0" max-vertical-offset="375">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.272" vertical-offset="0" max-vertical-offset="375">
+          <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
           <folding />
         </state>
       </provider>
