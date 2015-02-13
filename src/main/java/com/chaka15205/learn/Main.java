@@ -2,11 +2,12 @@ package com.chaka15205.learn;
 
 public class Main {
     public static void main(String args[]) {
-        System.out.println("Index\tValue");
-        int chaka[]={1,2,3,4,5,6};
+        int chaka[]={4,4,4,4};
+        int sum=0;
 
         for (int c=0;c<chaka.length;c++) {
-            System.out.println(c + "\t\t" + chaka[c]);
+            sum+=chaka[c];
         }
+        System.out.println(sum);
     }
 }
