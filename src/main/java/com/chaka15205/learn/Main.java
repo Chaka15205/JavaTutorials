@@ -1,15 +1,18 @@
 package com.chaka15205.learn;
 
-import java.util.Random;
-
 public class Main {
     public static void main(String args[]) {
-        Random r = new Random();
-        int num;
 
-        for (int c=1; c<10; c++) {
-            num = 1+r.nextInt(6); //1+ adds 1 to make it look like 1-6 instead of 0-5
-            System.out.println(num + "\t");
-        }
+        int id[]={1, 2, 3, 4, 5, 6, 7, 8};
+        String staff[]={"Chaka", "Legeis", "Pro_JellyFish", "DJPepper468",
+                "frankie2222222", "stspy212", "jakethe1st", "dragonwing122"};
+
+        int num1 = 1;
+        int num2 = 2;
+
+        int test[]={num1, num2};
+
+
+        System.out.println(test[1]);
     }
 }
