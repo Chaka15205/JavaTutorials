@@ -1,15 +1,18 @@
 package com.chaka15205.learn;
 
-import java.util.Random;
-
 public class Main {
     public static void main(String args[]) {
-        Random r = new Random();
-        int num;
+        int chaka[]={3,4,5,6,7};
+        updateArray(chaka);
 
-        for (int c=1; c<10; c++) {
-            num = 1+r.nextInt(6); //1+ adds 1 to make it look like 1-6 instead of 0-5
-            System.out.println(num + "\t");
+        for (int y:chaka) {
+            System.out.println(y);
+        }
+    }
+
+    public static void updateArray(int x[]) {
+        for (int c = 0; c<x.length;c++) {
+            x[c]+=5;
         }
     }
 }
