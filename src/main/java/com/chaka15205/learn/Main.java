@@ -1,14 +1,15 @@
 package com.chaka15205.learn;
 
 public class Main {
-    public static void main(String args[]) {
-        int chaka[]={3,4,5,6,7};
-        int total=0;
+    public static void main(String [] args) {
+        System.out.println(average(43,56,76,8,65,76,2,31));
+    }
 
-        for (int x: chaka) {
-            total += x;
+    public static int average(int...numbers) {
+        int total = 0;
+        for (int x:numbers) {
+            total+=x;
         }
-
-        System.out.println(total);
+        return total/numbers.length;
     }
 }
