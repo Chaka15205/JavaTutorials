@@ -1,19 +1,17 @@
 package com.chaka15205.learn;
 
 public class Tuna {
-    private String gn;
+    private int hour;
+    private int minute;
+    private int second;
 
-    public Tuna(String n) {
-        gn = n;
+    public void setTime(int h, int m, int s) {
+        hour = ((h >= 0 && h < 24) ? h : 0);
+        minute = ((m >= 0 && m < 60) ? m : 0);
+        second = ((s >= 0 && s < 60) ? s : 0);
     }
 
-    public void setName(String n) {
-        gn = n;
-    }
-    public String getName() {
-        return gn;
-    }
-    public void saying() {
-        System.out.printf("Your First Girlfriend was %s \n", getName());
+    public String toMilitary() {
+        return String.format("%02d:%02d:%02d", hour, minute, second);
     }
 }
