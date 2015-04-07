@@ -1,4 +1,4 @@
 package com.chaka15205.learn;
 
-public class Ref {
+public class Ref extends Info {
 }
