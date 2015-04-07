@@ -5,5 +5,7 @@ public class Main {
         Util member1 = new Util("Megan", "Fox");
         Util member2 = new Util("Nataile", "Portman");
         Util member3 = new Util("Taylor", "Swift");
+
+        System.out.println(Util.getMembers());
     }
 }
