@@ -1,16 +1,13 @@
 package com.chaka15205.learn;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-        String fn = JOptionPane.showInputDialog("Enter First Number");
-        String sn = JOptionPane.showInputDialog("Enter Second Number");
-
-        int num1 = Integer.parseInt(fn);
-        int num2 = Integer.parseInt(sn);
-        int sum = num1 + num2;
-
-        JOptionPane.showMessageDialog(null, "The sum is: " + sum, fn + " + " + sn, JOptionPane.PLAIN_MESSAGE);
+        Util util = new Util();
+        util.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        util.setSize(800, 400);
+        util.setVisible(true);
     }
 }
