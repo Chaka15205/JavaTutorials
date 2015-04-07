@@ -1,16 +1,22 @@
 package com.chaka15205.learn;
 
-public class Util {
-    private String name;
-    private Ref birthday;
+public enum Util {
+    CHAKA("Developer", "19"),
+    LEGEIS("Nub", "24"),
+    PRO_JELLYFISH("Fool", "17");
 
-    public Util(String theName, Ref theDate) {
-        name = theName;
-        birthday = theDate;
+    private final String desc;
+    private final String year;
+
+    Util(String description, String age) {
+        desc = description;
+        year = age;
     }
 
-    @Override
-    public String toString() {
-        return String.format("My name is %s, My birthday is %s", name, birthday);
+    public String getDesc() {
+        return desc;
+    }
+    public String getYear() {
+        return year;
     }
 }
