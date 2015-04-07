@@ -45,6 +45,8 @@ public class Util extends JFrame {
             } else if (event.getSource() == passwordField) {
                 string = String.format("password field is: %s", event.getActionCommand());
             }
+
+            JOptionPane.showMessageDialog(null, string);
         }
     }
 }
