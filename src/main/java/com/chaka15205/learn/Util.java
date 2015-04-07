@@ -1,21 +1,21 @@
 package com.chaka15205.learn;
 
-public class Tuna {
+public class Util {
 
     private int hour;
     private int minute;
     private int second;
 
-    public Tuna() {
+    public Util() {
         this(0,0,0);
     }
-    public Tuna(int h) {
+    public Util(int h) {
         this(h,0,0);
     }
-    public Tuna(int h, int m) {
+    public Util(int h, int m) {
         this(h,m,0);
     }
-    public Tuna(int h, int m, int s) {
+    public Util(int h, int m, int s) {
         setTime(h, m, s);
     }
     public void setTime(int h, int m, int s) {
@@ -42,6 +42,6 @@ public class Tuna {
         return second;
     }
     public String toMilitary() {
-        return String.format("%02d:%02d:02d", getHour(), getMinute(), getSecond());
+        return String.format("%02d:%02d:%02d", getHour(), getMinute(), getSecond());
     }
 }
