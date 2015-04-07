@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f76c8a4b-cabd-464a-84b8-d46bc1cae280" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/chaka15205/learn/Main.class" afterPath="$PROJECT_DIR$/build/classes/main/com/chaka15205/learn/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Info.java" afterPath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Info.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaTutorials.iws" afterPath="$PROJECT_DIR$/JavaTutorials.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Ref.java" afterPath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Ref.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Util.java" />
     </list>
     <ignored path="JavaTutorials.iws" />
@@ -35,8 +36,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23367697" vertical-offset="0" max-vertical-offset="582">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.29209623" vertical-offset="0" max-vertical-offset="582">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -45,10 +46,11 @@
       <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="969">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,9 +59,12 @@
       <file leaf-file-name="Ref.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Ref.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+              <folding>
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,9 +72,12 @@
       <file leaf-file-name="Info.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#66#67#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -313,7 +321,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -324,7 +332,75 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.chaka15205.learn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaTutorials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -762,7 +838,13 @@
       <option name="project" value="LOCAL" />
       <updated>1428419851198</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Episode 54 - Event Handler Program">
+      <created>1428420335693</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1428420335693</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -782,7 +864,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32819384" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30863538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3122222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -811,7 +893,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Episode 24 - do while Loops" />
     <MESSAGE value="Episode 25 - Math Class Methods" />
     <MESSAGE value="Episode 27 - Introduction To Arrays" />
     <MESSAGE value="Episode 28 - Creating An Array Table" />
@@ -836,7 +917,8 @@
     <MESSAGE value="Episode 46 - GUI with JFrame" />
     <MESSAGE value="Episode 52 - Event Handling" />
     <MESSAGE value="Episode 53 - ActionListener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Episode 53 - ActionListener" />
+    <MESSAGE value="Episode 54 - Event Handler Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Episode 54 - Event Handler Program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -860,7 +942,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="374">
           <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -869,7 +952,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -877,7 +963,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -902,7 +991,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -920,7 +1010,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -938,7 +1029,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
           <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -956,7 +1048,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="272">
           <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -974,7 +1067,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
           <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -992,7 +1086,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="408">
           <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1006,34 +1101,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Ref.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="969">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chaka15205/learn/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23367697" vertical-offset="0" max-vertical-offset="582">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.29209623" vertical-offset="0" max-vertical-offset="582">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>

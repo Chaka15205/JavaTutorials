@@ -1,12 +1,14 @@
 package com.chaka15205.learn;
 
-import javax.swing.*;
-
 public class Main {
     public static void main(String[] args) {
-        Util util = new Util();
-        util.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        util.setSize(350, 100);
-        util.setVisible(true);
+
+        Info info[] = new Info[2];
+        info[0] = new Ref();
+        info[1] = new Util();
+
+        for (int x = 0; x < 2; ++x) {
+            info[x].eat();
+        }
     }
 }
